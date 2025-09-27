@@ -1,0 +1,6 @@
+streamlit
+
+# local packages
+-e .
+
+# run ---> pip install -r requirements.txt

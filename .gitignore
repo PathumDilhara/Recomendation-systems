@@ -1,1 +1,58 @@
 *.pkl
+
+# ==============================
+# Python / Conda
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.egg-info/
+*.egg
+*.dist-info/
+*.vscode/
+
+# Conda environment folder (optional if you want to exclude)
+env/
+*.env/
+*.conda/
+*.condarc
+
+# ==============================
+# Jupyter / IPython
+# ==============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb
+
+# ==============================
+# Artifacts / Data
+# ==============================
+artifacts/
+datasets/
+*.pkl
+*.joblib
+*.csv
+*.sqlite
+*.db
+
+# ==============================
+# OS / IDE
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCode settings (optional)
+.vscode/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/
